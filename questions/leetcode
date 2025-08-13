@@ -18,3 +18,8 @@ https://leetcode.com/problems/satisfiability-of-equality-equations/
 
 https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 (common sense yaad rkhni h, and number kese count krenge leftover node ka to compare with the edges to find out ki -1 kese aayega vo logic pata krna h bas, baaki to inner vector dekha union laga diya agar dono ke parent same the to count badha diya vgera to krloge as is similar to prev quetsion)
+
+
+https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/submissions/1733099508/
+(to think -> 1 the general pattern/formulae
+          -> 2 how to find that general formulae me lgri variables)
