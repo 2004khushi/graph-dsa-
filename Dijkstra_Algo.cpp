@@ -40,7 +40,7 @@ vector<int> dijkstra_minheap(int V, vector<vector<int>>& edges, int src){
             //ab bhrna kese h and kab in queue again?
             //obv jab new distance to reach that adjnode is if lesser than what's already inside then u push [rmmbr the logic we used to apply in our copie stoo]
             if( (d+dist) < result[adjnode]){
-                resul[adjnode] = d+dist;
+                result[adjnode] = d+dist;
                 pq.push({d+dist, adjnode});
             }
         }
