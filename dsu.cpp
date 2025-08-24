@@ -1,4 +1,6 @@
-// do hi operation pe work krta h ye khaali -> 1) find.   2) union
+// do hi operation pe work krta h ye khaali -> 
+//         1) find.   
+//         2) union
 
 int find(int i, vector<int> &parent){
     //find kisko krna h? "i ko krna h"
@@ -28,7 +30,7 @@ void union(int x,int y, vector<int> &parent){
 
 
 //we have rank union fn too, which's much more efficient bcs vo graph smaller banata hai to reduce recurssion
-void union(intx, int y, vector<int> &parent, vector<int> &rank){
+void union(int x, int y, vector<int> &parent, vector<int> &rank){
     int x_par = find(x, parent);
     int y_par = find(y, parent);
 
