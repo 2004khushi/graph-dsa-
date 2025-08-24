@@ -26,3 +26,9 @@ https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-
 
  https://leetcode.com/problems/network-delay-time/
  (ye to mtlb vhi h ki bas u shud know how actually the dijkstra algo works)         
+
+
+
+ https://leetcode.com/problems/min-cost-to-connect-all-points/description/
+ https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1
+ (inme kn h prim ya kruskal lagaana hai bas input ko format krna h or kn)

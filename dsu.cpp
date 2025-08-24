@@ -48,3 +48,25 @@ void union(int x, int y, vector<int> &parent, vector<int> &rank){
         parent[x_par] = y_par;
     }
 }
+
+
+
+
+// When to choose which:
+// Use Union by Rank: When you only care about connectivity
+
+// Use Union by Size: When you need to know the size of connected components
+
+
+void Union(int x, int y) {
+    int x_root = find(x);
+    int y_root = find(y);
+    
+    if (size[x_root] < size[y_root]) {
+        parent[x_root] = y_root;
+        size[y_root] += size[x_root];
+    } else {
+        parent[y_root] = x_root;
+        size[x_root] += size[y_root];
+    }
+}
