@@ -32,3 +32,7 @@ https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-
  https://leetcode.com/problems/min-cost-to-connect-all-points/description/
  https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1
  (inme kn h prim ya kruskal lagaana hai bas input ko format krna h or kn)
+
+
+ https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/
+ (kn bas diameter waali chij lagani hai, and ek math formuale lagana h, and ek edge case dhyan me rkhna h ki bhai join krne ke baad bhi ho skta h khud hi wala diam bada ho)
